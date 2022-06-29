@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -83,19 +84,19 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">À propos</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Les Poles d'Interventions</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">Pole social</a>
-                        <a href="quote.html" class="dropdown-item">Pole d'appui au developpement économique local</a>
-                        <a href="team.html" class="dropdown-item">Pole environnment</a>
-                        <a href="testimonial.html" class="dropdown-item">Programme volontaires, stagiaires, chercheurs</a>
+                        <a href="#environnement" class="dropdown-item">Pole environnment</a>
+                        <a href="#environnement" class="dropdown-item">Programme volontaires, stagiaires, chercheurs</a>
+                        <a href="#environnement" class="dropdown-item">Pole d'appui au developpement économique local</a>
     
                     </div>
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Nos Activités<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="activity.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Nos Activités<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -155,45 +156,36 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                     <div class="d-flex align-items-center mb-4">
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-users text-white"></i>
                         </div>
                         <h1 class="mb-0" data-toggle="counter-up">3453</h1>
                     </div>
-                    <h5 class="mb-3">Happy Customers</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <h5 class="mb-3">Volontaires</h5>
+                    <span style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px;">Durant nos activités, nous travaillons souvent avec des personnes qui viennent avec leurs familles et cela rend l'atmosphère de travail plus agréable</span>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                     <div class="d-flex align-items-center mb-4">
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-check text-white"></i>
                         </div>
-                        <h1 class="mb-0" data-toggle="counter-up">4234</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">34</h1>
                     </div>
-                    <h5 class="mb-3">Project Done</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <h5 class="mb-3">Activités realisées</h5>
+                    <span style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px;">Nous avons realisé des activités tels que: Le ramassage des déchets (nettoyage), sensibilisation dans les écoles et dans des quartiers</span>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="d-flex align-items-center mb-4">
-                        <div class="btn-lg-square bg-primary rounded-circle me-3">
-                            <i class="fa fa-award text-white"></i>
-                        </div>
-                        <h1 class="mb-0" data-toggle="counter-up">3123</h1>
-                    </div>
-                    <h5 class="mb-3">Awards Win</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-4">
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-users-cog text-white"></i>
                         </div>
-                        <h1 class="mb-0" data-toggle="counter-up">1831</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">7</h1>
                     </div>
-                    <h5 class="mb-3">Expert Workers</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <h5 class="mb-3">Experts en environnement et développement durable</h5>
+                    <span style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px;">Afin de réaliser des projets dont les effets positives seront tangibles et palpables</span>
                 </div>
             </div>
         </div>
@@ -207,17 +199,43 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/ram22.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
-                        <h6 class="text-primary">About Us</h6>
-                        <h1 class="mb-4">25+ Years Experience In Solar & Renewable Energy Industry</h1>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Diam dolor diam ipsum</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Aliqu diam amet diam et eos</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
+                        <h6 class="text-primary">À propos de A.P.E.S.B.C</h6>
+                        <h1 class="mb-4">Constatations</h1>
+                        <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;">
+                            La degradation de l'environnement et du cadre de vie; La deforestation sauvage, 
+                            et l'absence totale de reboisement; L'innaction des acteurs de l'environnement; 
+                            La non transformation ou le non recyclage 
+                            des dechets; La pollution a grande echelle; La destruction des zones humides.
+                            Les Consequences: Les glissements des terrains; les erosions.
+                            </p>
+
+                            <br/><br/>
+                            <h1 class="mb-4">Objectifs</h1>
+                        <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;"><i class="fa fa-check-circle text-primary me-3"></i>
+                            Informer, eduquer, former, sensibiliser les riverains sur l'importance de preserver l'environnement;
+                        </p>
+                        <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;"><i class="fa fa-check-circle text-primary me-3"></i>
+                            Lutter contre la deforestation (les abattages abusives des arbres).
+                             lutter contre la biodegradation de nos plages qui est notre defis majeur;
+                        </p>
+                        <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;"><i class="fa fa-check-circle text-primary me-3"></i>
+                            Informer la population sur les constructions anarchiques dans des zones interdites
+                        </p>
+
+                        <br/><br/>
+                        <h1 class="mb-4">Approche</h1>
+                        <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;">
+                            Il s'agit de la valorisation d'un territoire et de sa diversite naturelle et culturelle 
+                            par la valorisation et la gestion durable des ressources locales. La realisation de l'ensemble 
+                            des activites ou programmes relatifs a l'atteinte de nos objectifs concilient la gestion 
+                            durable des ressources naturelles, epanouissement socioculturel et developpement economique local, 
+                            dans le respect des regles de bonne gouver nance et d'une approche participative.
+                            </p>
                         <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explore More</a>
                     </div>
                 </div>
@@ -228,87 +246,115 @@
 
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="pole">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h6 class="text-primary">Our Services</h6>
-                <h1 class="mb-4">We Are Pioneers In The World Of Renewable Energy</h1>
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" >
+                <h6 class="text-primary">LES POLES D'INTERVENTION</h6>
+                <p>L'Association pour la protection de l'Environnement et la Sauvegarde de Bassin du Congo intervient dans les poles suivants:<br/>
+                    <strong>Pole Environnement, Pole Social, Pole D'Appui au Developpement Economique Local, Programme Volontaires, Stagiaires et Chercheur.</strong></p>
             </div>
             <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div id="environnement" class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <img class="img-fluid" src="img/bassin.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                            
                             </div>
-                            <h4 class="mb-3">Solar Panels</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <h4 class="mb-3" style="text-align: center;">Pole Environnement (POLEN)</h4>
+                            <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;">A.P.E.S.B.C intervient dans le cadre d'un partenariat priviligie avec le Ministere de l'Environnement et le Ministere des Eaux et Forets. Sur l'ensemble de ses sites d'intervention, A.P.E.S.B.C coordonne differents programmes et activites visant a la connaissance, la protection et la valorisation 
+                                de la biodiversite unique du Congo. Les missions du Pole Environnement se declinent en trois programmes:<br/><br/>
+
+                                - Assainissement, connaissance et suivi-biodiversite;<br/>
+                                - Conservation et reforestation, regeneration forestiere;<br/>
+                                - Agriculture et Elevage durables;<br/></p><br/><br/><br/>
                             <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        <img class="img-fluid" src="img/devep.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-wind fa-3x"></i>
+                                
                             </div>
-                            <h4 class="mb-3">Wind Turbines</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <h4 id="economic" class="mb-3" style="text-align: center;">Pole d'Appui au Developpement Economique Local (PADEL)</h4>
+                            <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;">Le PADEL a pour vocation de participer a l'amelioration des conditions de vie des populations presentes sur les sites qu'elle soutient, en encourageant l'emergence et le developpement d'activites generatrices de revenus ou de projets permettant d'optimiser l'utilisation des resources naturelles et de preservation des fonctions ecologiques, sociales et economiques de la forets.
+                                Les filieres de la valorisation durable de la biodiversite visent a permettre la creation
+                                 de richesse par la mise en place d'activites Generatrices de revenus et la perenisation
+                                  d'emplois au sein des communautes locales:<br/><br/>
+                                - Huiles Essentielles et Plantes Aromatiques et Medecinales;<br/>
+                                - Artisanat et transformation agroalimentaire.</p>
                             <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        <img class="img-fluid" src="img/research.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-lightbulb fa-3x"></i>
+                                
                             </div>
-                            <h4 class="mb-3">Hydropower Plants</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <h4 id="social" class="mb-3" style="text-align: center;">Le programme Volontaires, Stagiaires et Chercheurs</h4>
+                            <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;">A.P.E.S.B.C recoit des stagiares, volontaires et chercheurs et benevoles de tous 
+                                les horizons. Ces personnes sont issues de parcours et disposent de qualifications
+                                 et motivations diverses. Leurs contributions sont precieuses et nous pourrions 
+                                 realiser nos missions sans leurs apports Les objectifs du programme 
+                                 Volontaires-Stagiaire-Chercheurs sont multiples:<br/><br/>
+                                - Valoriser l'engagement benevole et donner a l'action solidaire une place pleine et entiere dans la realisation des missions de l'association.<br/>
+                                - Fournir un cadre et des facilitations pour que les missions de volontariat, les stages et actions solidaires puissent se derouler dans<br/>
+                                 les conditions les plus appropriees possibles pour le volontaire et pour l'organisation.</p>
                             <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <img class="img-fluid" src="img/sauver.jpg" alt="" style="height: 300px;">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                               
                             </div>
-                            <h4 class="mb-3">Solar Panels</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <h4 class="mb-3" style="text-align: center;">Les pays du Bassin du Congo</h4>
+                            <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;">Les pays du Bassin du Congo, pour la plupart francophones, possèdent un immense potentiel forestier
+                                 qui devrait, en partie, soutenir leur développement humain, social, économique et culturel. 
+                                 Un ensemble de facteurs, surtout de nature politique
+                                 et institutionnelle, empêche la réalisation de ce potentiel en faveur du développement.</p>
                             <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        <img class="img-fluid" src="img/new2.jpg" alt="" style="height: 300px;">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-wind fa-3x"></i>
+                              
                             </div>
-                            <h4 class="mb-3">Wind Turbines</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <h4 class="mb-3" style="text-align: center;">Projet Sensibilisation mediatique</h4>
+                            <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;">Nous souhaitons creer une chaine youtube pour filmer et publier toutes nos activites afin non 
+                                seuleument de trouver des partenaires partout dans le monde mais aussi de reveiller la conscience 
+                                de l'humanite entiere
+                                 sur la responsabilite que nous partageons tous sur la bonne gestion de notre environnement.</p><br/>
                             <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        <img class="img-fluid" src="img/envir.jpg" alt="" style="height: 300px;">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-lightbulb fa-3x"></i>
+                               
                             </div>
-                            <h4 class="mb-3">Hydropower Plants</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <h4 class="mb-3" style="text-align: center;">Objectifs Generaux de A.P.E.S.B.C</h4>
+                            <p style="text-align: justify; margin-top: 0; line-height: 24px; font-size: 14px; color: #000;">Particicper a faire la demonstration que la preservation de l'environnement et le developpement
+                                 humain peuvent aller de paire.
+                                Oeuvrer a la faveur d'un developpement durable et a la preservation de la biodiversite par 
+                                l'implication des 
+                                populations locales defavorisees, sur des zones specifiques tres riches en biodiversite menacee.</p>
                             <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -380,9 +426,9 @@
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item rounded overflow-hidden">
+                    <div class="team-item rounded overflow-hidden" style="height: 428px;">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="img/lucien.jpg" alt="">
+                            <img class="img-fluid w-75" src="img/lucien.jpg" alt="" style="height: 300px;">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
@@ -391,14 +437,14 @@
                         </div>
                         <div class="p-4">
                             <h5>Lucien Gilbert Mbazoulou Ngambé</h5>
-                            <span>Designation</span>
+                            <span>Coordonateur zone Europe</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item rounded overflow-hidden">
+                    <div class="team-item rounded overflow-hidden" style="height: 428px;">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="img/adrien2.jpg" alt="">
+                            <img class="img-fluid w-75" src="img/adrien2.jpg" alt="" style="height: 300px;">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
@@ -407,14 +453,14 @@
                         </div>
                         <div class="p-4">
                             <h5>Adrien Mabirou</h5>
-                            <span>Designation</span>
+                            <span>Tresorier et DRH</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item rounded overflow-hidden">
+                    <div class="team-item rounded overflow-hidden" style="height: 428px;">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="img/yvon.jpg" alt="">
+                            <img class="img-fluid w-75" src="img/yvon.jpg" alt="" style="height: 300px;">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
@@ -422,15 +468,15 @@
                             </div>
                         </div>
                         <div class="p-4">
-                            <h5>Full Name</h5>
-                            <span>Designation</span>
+                            <h5>Yvon Ngoma Mby</h5>
+                            <span>Secrétaire général</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="d-flex">
-                            <img class="img-fluid w-75" src="img/dieuveil.jpg" alt="">
+                            <img class="img-fluid w-75" src="img/dieuveil.jpg" alt="" style="height: 300px;">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
@@ -439,7 +485,7 @@
                         </div>
                         <div class="p-4">
                             <h5>Dieuveil Mabirou</h5>
-                            <span style="text-align: center; text-justify: center">Responsable de l'information et de la communication</span>
+                            <span style="text-align: center; text-justify: center">Responsable de la communication</span>
                         </div>
                     </div>
                 </div>
@@ -448,8 +494,6 @@
         </div>
     </div>
     <!-- Team End -->
-
-
 
 
     <!-- Footer Start -->
@@ -470,41 +514,41 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Liens rapides</h5>
-                    <a class="btn btn-link" href="">À propos</a>
-                    <a class="btn btn-link" href="">Contactez Nous</a>
-                    <a class="btn btn-link" href="">Poles d'Interventions</a>
+                    <a class="btn btn-link" href="about.html">À propos</a>
+                    <a class="btn btn-link" href="contact.html">Contactez Nous</a>
+                    <a class="btn btn-link" href="#pole">Poles d'Interventions</a>
                     <a class="btn btn-link" href="">Nous soutenir</a>
                     <a class="btn btn-link" href="">Le Bassin du Congo</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Nos projets en photos</h5>
+                    <h5 class="text-white mb-4">Nos activités en photos</h5>
                     <div class="row g-2">
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-1.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/ram5.jpg" alt="" style="height: 70px; width: 150px;">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-2.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/ram102.jpg" alt="" style="height: 70px; width: 150px;">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-3.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/new2.jpg" alt="" style="height: 70px; width: 150px;">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-4.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/ram2.jpg" alt="" style="height: 70px; width: 150px;">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-5.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/ram55.jpg" alt="" style="height: 70px; width: 150px;">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-6.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/ram100.jpg" alt="" style="height: 70px; width: 150px;">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Recevoir des nouvelles sur nos activités</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Ton email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Envoyez</button>
                     </div>
                 </div>
             </div>
